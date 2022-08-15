@@ -1,0 +1,15 @@
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\les3lec.csproj.AssemblyReference.cache
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\les3lec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\les3lec.AssemblyInfoInputs.cache
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\les3lec.AssemblyInfo.cs
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\les3lec.csproj.CoreCompileInputs.cache
+C:\Users\niyme\Desktop\C#\les3lec\bin\Debug\net6.0\les3lec.exe
+C:\Users\niyme\Desktop\C#\les3lec\bin\Debug\net6.0\les3lec.deps.json
+C:\Users\niyme\Desktop\C#\les3lec\bin\Debug\net6.0\les3lec.runtimeconfig.json
+C:\Users\niyme\Desktop\C#\les3lec\bin\Debug\net6.0\les3lec.dll
+C:\Users\niyme\Desktop\C#\les3lec\bin\Debug\net6.0\les3lec.pdb
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\les3lec.dll
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\refint\les3lec.dll
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\les3lec.pdb
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\les3lec.genruntimeconfig.cache
+C:\Users\niyme\Desktop\C#\les3lec\obj\Debug\net6.0\ref\les3lec.dll
