@@ -65,3 +65,36 @@ string text = "- Я думаю, - сказал князь, улыбаясь, - �
 + "ежели бы вас послали вместо нашего милого Винценгероде, "
 + "вы бы взяли приступом согласие прусского короля. "
 + "Вы так красноречивы. вы дадите мне чвю?";
+
+// string Replace(string text, char oldValue, char newValue)
+// {
+//     string result = String.Empty;
+    
+//     for(int i=0; i<text.Length; i++) 
+//     {
+//         if(text[i] == oldValue) result += $"{newValue}";
+//         else result += $"{text[i]}";
+//     }
+//     return result;
+// }
+// string newText = Replace(text, ' ', '|');
+// Console.WriteLine(newText);
+
+string Method(string text, char oldChar, char newChar)
+{
+    string result = string.Empty;
+    int length = text.Length;
+    for (int i = 0; i < length; i++)
+    {
+        if(text[i] == oldChar) result += $"{newChar}";
+        else result += text[i];
+    }
+    return result;
+}
+
+string str = Method(text, ' ', '|');
+string str2 = Method(str, 'к', 'К');
+string str3 = Method(str2, 'с', 'С');
+Console.WriteLine(str3);
+
+
