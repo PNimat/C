@@ -61,10 +61,10 @@
 // маленькие буквы "к" заменить большими "К",
 // а большие "С" заменить маленикими "с".
 
-string text = "- Я думаю, - сказал князь, улыбаясь, - что, "
-+ "ежели бы вас послали вместо нашего милого Винценгероде, "
-+ "вы бы взяли приступом согласие прусского короля. "
-+ "Вы так красноречивы. вы дадите мне чвю?";
+// string text = "- Я думаю, - сказал князь, улыбаясь, - что, "
+// + "ежели бы вас послали вместо нашего милого Винценгероде, "
+// + "вы бы взяли приступом согласие прусского короля. "
+// + "Вы так красноречивы. вы дадите мне чвю?";
 
 // string Replace(string text, char oldValue, char newValue)
 // {
@@ -80,22 +80,73 @@ string text = "- Я думаю, - сказал князь, улыбаясь, - �
 // string newText = Replace(text, ' ', '|');
 // Console.WriteLine(newText);
 
-string Method(string text, char oldChar, char newChar)
+// string Method(string text, char oldChar, char newChar)
+// {
+//     string result = string.Empty;
+//     int length = text.Length;
+//     for (int i = 0; i < length; i++)
+//     {
+//         if(text[i] == oldChar) result += $"{newChar}";
+//         else result += text[i];
+//     }
+//     return result;
+// }
+
+// string str = Method(text, ' ', '|');
+// string str2 = Method(str, 'к', 'К');
+// string str3 = Method(str2, 'с', 'С');
+// // Console.WriteLine(str3);
+
+// int[] arr = {6, 3, 1, 8, 2};
+
+void printArr (int[] array)
 {
-    string result = string.Empty;
-    int length = text.Length;
-    for (int i = 0; i < length; i++)
+    int count = array.Length;
+    for (int i = 0; i < count; i++)
     {
-        if(text[i] == oldChar) result += $"{newChar}";
-        else result += text[i];
+        Console.Write($"{array[i]} ");
     }
-    return result;
+    Console.WriteLine();
 }
 
-string str = Method(text, ' ', '|');
-string str2 = Method(str, 'к', 'К');
-string str3 = Method(str2, 'с', 'С');
-Console.WriteLine(str3);
+int[] arr = {6, 3, 1, 8, 2};
+void selectionSort(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        int minPosicion = i;
+        for (int j = i + 1; j < array.Length; j++)
+        {
+            if(array[j] < array[minPosicion])
+            {
+                minPosicion = j;
+            }
+        }
+        int temporary = array[i];
+        array[i] = array[minPosicion];
+        array[minPosicion] = temporary;
+    }
+}
 
-Console.WriteLine("ну ка");
 
+// int[] array = {6, 3, 1, 1, 2, 8, 2};
+// void sSort (int[] array) 
+// {
+//     for(int i=0; i<array.Length; i++)
+//     {
+//         for(int j=i+1; j<array.Length; j++)
+//         {
+//             if(array[i] > array[j])
+//             {
+//                 int temp = array[i];
+//                 array[i] = array[j];
+//                 array[j] = temp;
+//             }
+//         }
+//     }
+
+// }
+
+printArr(arr);
+selectionSort(arr);
+printArr(arr);
