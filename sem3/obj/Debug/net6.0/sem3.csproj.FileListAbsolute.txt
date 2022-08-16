@@ -1,0 +1,15 @@
+C:\Users\niyme\Desktop\C#\sem3\bin\Debug\net6.0\sem3.exe
+C:\Users\niyme\Desktop\C#\sem3\bin\Debug\net6.0\sem3.deps.json
+C:\Users\niyme\Desktop\C#\sem3\bin\Debug\net6.0\sem3.runtimeconfig.json
+C:\Users\niyme\Desktop\C#\sem3\bin\Debug\net6.0\sem3.dll
+C:\Users\niyme\Desktop\C#\sem3\bin\Debug\net6.0\sem3.pdb
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\sem3.csproj.AssemblyReference.cache
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\sem3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\sem3.AssemblyInfoInputs.cache
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\sem3.AssemblyInfo.cs
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\sem3.csproj.CoreCompileInputs.cache
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\sem3.dll
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\refint\sem3.dll
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\sem3.pdb
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\sem3.genruntimeconfig.cache
+C:\Users\niyme\Desktop\C#\sem3\obj\Debug\net6.0\ref\sem3.dll
