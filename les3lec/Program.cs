@@ -97,4 +97,5 @@ string str2 = Method(str, 'к', 'К');
 string str3 = Method(str2, 'с', 'С');
 Console.WriteLine(str3);
 
+Console.WriteLine("ну ка");
 
